@@ -1,0 +1,10 @@
+FTP
+host: ftp.minasmourao.com 
+user: u186288921.minasmourao 
+pass: rxwOSRaiQ>u4
+
+MYSQL
+host: localhost
+bd:   u186288921_minasmourao
+user: u186288921_minasmourao 
+pass: 2sQ]8gc4f3*
