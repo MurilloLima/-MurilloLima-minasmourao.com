@@ -47,7 +47,7 @@
     <div id="preloader"></div>
     <!-- Preloader End Here -->
     <div id="wrapper" class="wrapper">
-        @include('site.layouts.nav')
+        <!-- @include('site.layouts.nav') -->
         <!-- Top Bar Space Start-->
         <div id="header-area-space"></div>
         <!-- Top Bar Space End-->
