@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-box">
-                        <h3 class="title-bar-footer">Contact Us</h3>
+                        <h3 class="title-bar-footer">Contatos</h3>
                         <ul class="corporate-address">
                             <li>
                                 <i class="fa fa-phone" aria-hidden="true"></i>
@@ -22,8 +22,8 @@
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <p>support@tectas.com</p>
-                                <p>boosted@domain.com</p>
+                                <p>contato@minasmourao.com</p>
+                                <p>vendas@minasmourao.com</p>
                             </li>
                             <li>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
