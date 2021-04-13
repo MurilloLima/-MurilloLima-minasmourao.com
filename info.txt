@@ -1,0 +1,18 @@
+FTP
+host: ftp.minasmourao.com 
+user: u186288921.minasmourao 
+pass: rxwOSRaiQ>u4
+
+MYSQL
+host: localhost
+bd:   u186288921_minasmourao
+user: u186288921_minasmourao 
+pass: 2sQ]8gc4f3*
+
+
+Themas
+http://preview.themeforest.net/item/wood-workshop-carpenter-and-craftsman-wordpress-theme/full_screen_preview/16120374?_ga=2.146914807.1731961642.1617573036-1546481183.1617572890
+http://preview.themeforest.net/item/fortunio-timber-forestry-wood-manufacture-wordpress-theme/full_screen_preview/17139960?_ga=2.64922607.172085994.1617573026-1546481183.1617572890
+http://preview.themeforest.net/item/wood-works-renovation-services-carpenter-and-craftsman-business-html-template/full_screen_preview/19182229?_ga=2.245100551.387179161.1617573159-1546481183.1617572890
+https://abctechweb.net/envato/templates/fabcarpenter/carpenter/index2.html
+https://abctechweb.net/envato/templates/fabcarpenter/carpenter/services.html
