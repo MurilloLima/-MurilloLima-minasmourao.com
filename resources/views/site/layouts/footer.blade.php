@@ -13,38 +13,35 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-box">
-                        <h3 class="title-bar-footer">Contact Us</h3>
+                        <h3 class="title-bar-footer">Contatos</h3>
                         <ul class="corporate-address">
                             <li>
                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                <p>Phone: +6789-875-2235</p>
-                                <p>Fax: +2390-875-2235</p>
+                                <p>(63)99208-9508 99920-3471</p>
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <p>support@tectas.com</p>
-                                <p>boosted@domain.com</p>
+                                <p>contato@minasmourao.com.br</p>
                             </li>
                             <li>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <p>202 New Hampshire Avenue</p>
-                                <p>North #100, New York-2573</p>
+                                <p>BR 226 (Belém Brasília), Km 02 Aguiarnopolis-TO</p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-box">
-                        <h3 class="title-bar-footer">Quick Link</h3>
+                        <h3 class="title-bar-footer">Link rápido</h3>
                         <ul class="useful-links">
                             <li>
                                 <ul>
-                                    <li><a href="{{ route('site.index') }}">About Us</a></li>
-                                    <li><a href="{{ route('site.index') }}">Calsses Timetable</a></li>
-                                    <li><a href="{{ route('site.index') }}">Popular Classes</a></li>
-                                    <li><a href="{{ route('site.index') }}">Shop Product</a></li>
-                                    <li><a href="{{ route('site.index') }}">Recent News</a></li>
-                                    <li><a href="{{ route('site.index') }}">Contact Us</a></li>
+                                    <li><a href="{{ route('site.index') }}">A Empresa</a></li>
+                                    <li><a href="{{ route('site.index') }}">A Madeira</a></li>
+                                    <li><a href="{{ route('site.index') }}">O Tratamento</a></li>
+                                    <li><a href="{{ route('site.index') }}">Aplicações</a></li>
+                                    <li><a href="{{ route('site.index') }}">Orçamentos</a></li>
+                                    <li><a href="{{ route('site.index') }}">Produtos</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -53,7 +50,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-newslatter">
                         <h3 class="title-bar-footer">Newslatter</h3>
-                        <p>Subscribe to get the latest news, update and offer information.</p>
+                        <p>Inscreva-se para receber as últimas notícias, atualizações e informações de ofertas.</p>
                         <form>
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Enter email">

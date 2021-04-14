@@ -2,10 +2,20 @@
 
 
 Route::get('/', 'Site\HomeController@index')->name('site.index');
+Route::get('orcamentos/', 'Site\HomeController@orcamentos')->name('site.orcamentos');
+Route::get('produtos/', 'Site\HomeController@produtos')->name('site.produtos');
+
+Route::get('contatos/', 'Site\HomeController@contatos')->name('site.contatos');
 
 //Panel
 Route::group(['prefix' => 'panel', 'middleware' => ['auth']], function () {
     Route::get('/', 'Panel\Admin\HomeController@index')->name('panel.admin.index');
+
+    //orçamentos
+    Route::get('orcamentos/', 'Panel\Admin\OrcamentoController@index')->name('admin.orcamentos.index');
+
+    //produtos
+    Route::get('produtos/', 'Panel\Admin\ProdutoController@index')->name('admin.produtos.index');
 
     //Slider
     Route::get('slider/', 'Panel\Admin\SliderController@index')->name('admin.slider.index');

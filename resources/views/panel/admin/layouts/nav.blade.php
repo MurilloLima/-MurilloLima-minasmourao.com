@@ -70,27 +70,33 @@
                         </p>
                     </a>
                 </li>
-
                 <li class="nav-item">
                     <a href="{{ route('admin.slider.index') }}"
                         class="nav-link {{ $activePage == 'admin.slider.index' ? ' active' : '' }}">
-                        <i class="nav-icon fas fa-list"></i>
+                        <i class="nav-icon fa fa-sliders-h"></i>
                         <p>
                             Slider
                         </p>
                     </a>
                 </li>
-
                 <li class="nav-item">
-                    {{-- <a href="{{ route('admin.eventos.index') }}"
-                        class="nav-link {{ $activePage == 'admin.eventos.index' ? ' active' : '' }}">
+                    <a href="{{ route('admin.orcamentos.index') }}"
+                        class="nav-link {{ $activePage == 'admin.orcamentos.index' ? ' active' : '' }}">
+                        <i class="nav-icon fas fa-list"></i>
+                        <p>
+                            Orçamentos
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.produtos.index') }}"
+                        class="nav-link {{ $activePage == 'admin.produtos.index' ? ' active' : '' }}">
                         <i class="nav-icon fas fa-paste"></i>
                         <p>
-                            Eventos
+                            Produtos
                         </p>
-                    </a> --}}
+                    </a>
                 </li>
-
                 <li class="nav-item">
                     <a href="{{ route('admin.noticias.index') }}"
                         class="nav-link {{ $activePage == 'admin.noticias.index' ? ' active' : '' }}">
@@ -100,16 +106,7 @@
                         </p>
                     </a>
                 </li>
-
-                <li class="nav-item">
-                    {{-- <a href="{{ route('admin.projetos.index') }}"
-                        class="nav-link {{ $activePage == 'admin.projetos.index' ? ' active' : '' }}">
-                        <i class="nav-icon fas fa-edit"></i>
-                        <p>
-                            Projetos
-                        </p>
-                    </a> --}}
-                </li>
+               
 
                 {{-- <li class="nav-item">
                     <a href="#" class="nav-link">

@@ -34,11 +34,9 @@
                         <div class="small-title">we are expert</div>
                         <div class="big-title">CARPENTERS</div>
                         <ul class="slider-btn">
-                            <li class="slide-left"><a href="{{ route('site.index') }}#" class="slider-btn1">request a
-                                    free quote</a>
+                            <li class="slide-left"><a href="{{ route('site.index') }}#" class="slider-btn1">Faça um orçamento</a>
                             </li>
-                            <li class="slide-right"><a href="{{ route('site.index') }}#" class="slider-btn2">view our
-                                    services</a></li>
+                            <li class="slide-right"><a href="{{ route('site.index') }}#" class="slider-btn2">Produtos</a></li>
                         </ul>
                     </div>
                 </div>
