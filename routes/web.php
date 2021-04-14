@@ -2,6 +2,8 @@
 
 
 Route::get('/', 'Site\HomeController@index')->name('site.index');
+Route::get('sobre-a-empresa/', 'Site\HomeController@empresa')->name('site.empresa');
+
 Route::get('orcamentos/', 'Site\HomeController@orcamentos')->name('site.orcamentos');
 Route::get('produtos/', 'Site\HomeController@produtos')->name('site.produtos');
 
