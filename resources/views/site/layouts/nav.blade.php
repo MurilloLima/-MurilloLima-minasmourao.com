@@ -9,7 +9,7 @@
                             <li>
                                 <i class="bi bi-phone" aria-hidden="true"></i>
                                 <a href="Tel:++6789-875-2235">
-                                    +55 (99) 0000-0000</a>
+                                    +55 (63) 99208-9508</a>
                             </li>
                             <li>
                                 <i class="bi bi-envelop" aria-hidden="true"></i>
@@ -63,23 +63,23 @@
                                 <li>
                                     <a href="">Sobre</a>
                                     <ul>
-                                        <li><a href="">A Empresa</a></li>
-                                        <li><a href="">A Madeira</a></li>
-                                        <li><a href="">O Tratamento</a></li>
+                                        <li><a href="{{ route('site.empresa') }}">A Empresa</a></li>
+                                        <li><a href="{{ route('site.madeira') }}">A Madeira</a></li>
+                                        <li><a href="{{ route('site.tratamento') }}">O Tratamento</a></li>
                                         <li><a href="{{ route('site.index') }}">Aplicacões</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="{{ route('site.index') }}">Orçamentos</a>
+                                    <a href="{{ route('site.orcamentos') }}">Orçamentos</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('site.index') }}">Produtos</a>
+                                    <a href="{{ route('site.produtos') }}">Produtos</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('site.index') }}">Notícias</a>
+                                    <a href="{{ route('site.noticias') }}">Notícias</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('site.index') }}">Contatos</a>
+                                    <a href="{{ route('site.contatos') }}">Contatos</a>
                                 </li>
                             </ul>
                         </nav>

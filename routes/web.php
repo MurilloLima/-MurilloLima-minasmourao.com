@@ -1,12 +1,13 @@
 <?php
 
-
 Route::get('/', 'Site\HomeController@index')->name('site.index');
 Route::get('sobre-a-empresa/', 'Site\HomeController@empresa')->name('site.empresa');
-
+Route::get('sobre-a-madeira/', 'Site\HomeController@madeira')->name('site.madeira');
+Route::get('sobre-o-tratamento/', 'Site\HomeController@tratamento')->name('site.tratamento');
+Route::get('aplicacoes/', 'Site\HomeController@aplicacoes')->name('site.aplicacoes');
 Route::get('orcamentos/', 'Site\HomeController@orcamentos')->name('site.orcamentos');
 Route::get('produtos/', 'Site\HomeController@produtos')->name('site.produtos');
-
+Route::get('noticias/', 'Site\HomeController@noticias')->name('site.noticias');
 Route::get('contatos/', 'Site\HomeController@contatos')->name('site.contatos');
 
 //Panel
@@ -34,6 +35,5 @@ Route::group(['prefix' => 'panel', 'middleware' => ['auth']], function () {
     Route::get('noticia/edit/{id}', 'Panel\Admin\NoticiasController@edit')->name('admin.noticia.edit');
     Route::post('noticia/update/{id}', 'Panel\Admin\NoticiasController@update')->name('admin.noticia.update');
     Route::get('noticia/delete/{id}', 'Panel\Admin\NoticiasController@delete')->name('admin.noticia.delete');
-
 });
 Auth::routes();

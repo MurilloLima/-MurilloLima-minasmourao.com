@@ -113,319 +113,8 @@
     </div>
 </div>
 <!-- 3 Features Area End Here -->
-<!-- Portfolio Area Start Here -->
-<div class="section-space-all">
-    <div class="container-fluid mb-75 isotope-container">
-        <div class="section-title-dark">
-            <h2>exemplos de uso <span>eucalipton</span></h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <div class="isotope-classes-tab project-list2 shadow-equal">
-                    <a href="#" data-filter="*" class="current">Todos</a>
-                    <a href="#" data-filter=".commercial2">casa</a>
-                    <a href="#" data-filter=".interior2">construção</a>
-                    <a href="#" data-filter=".residential2">galpão</a>
-                    <a href="#" data-filter=".hospital2">cercas</a>
-                </div>
-            </div>
-        </div>
-        <div class="row no-gutters featured-container gallery-wrapper2">
-            {{-- casa  --}}
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa1.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa1.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa2.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa2.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa3.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa3.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa4.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa4.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa5.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa5.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa6.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa6.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/casa7.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/casa7.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-           {{-- construcao --}}
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/construcao1.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/construcao1.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/construcao2.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/construcao2.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/construcao3.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/construcao3.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/construcao4.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/construcao4.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                       
-                    </div>
-                </div>
-            </div>
-
-            {{-- galpao  --}}
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/galpao1.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/galpao1.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/galpao2.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/galpao2.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/galpao3.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/galpao3.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/galpao4.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/galpao4.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/galpao5.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/galpao5.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/galpao6.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/galpao6.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-
-            {{-- cercas --}}
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/cerca1.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/cerca1.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/cerca2.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/cerca2.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/cerca3.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/cerca3.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/cerca4.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/cerca4.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
-                <div class="portfolio-layout5">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/exemplos/cerca5.jpg') }}" alt="img">
-                    </div>
-                    <div class="content-box">
-                        <ul>
-                            <li><a href="{{ asset('assets/site/img/exemplos/cerca5.jpg') }}" class="zoom"><i class="bi bi-search"></i></a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="project-btn text-center">
-        <a href="#" class="btn btn-fill">view all work</a>
-    </div>
-</div>
-<!-- Portfolio Area End Here -->
 <!-- Featured Services Area Start Here -->
-<div class="section-space-less30" style="background-image: url(img/bg-reapet/featuredbg.jpg);">
+<div class="section-space-less30" style="background-image: url({{asset('assets/site/img/bg-reapet/featuredbg.jpg')}});">
     <div class="container">
         <div class="section-title-dark">
             <h2>Exemplos de uso <span>Eucalipto</span></h2>
@@ -507,9 +196,341 @@
     </div>
 </div>
 <!-- Featured Services Area End Here -->
+<!-- Portfolio Area Start Here -->
+<div class="section-space-all">
+    <div class="container-fluid mb-75 isotope-container">
+        <div class="section-title-dark">
+            <h2>exemplos de uso <span>eucalipton</span></h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="isotope-classes-tab project-list2 shadow-equal">
+                    <a href="#" data-filter="*" class="current">Todos</a>
+                    <a href="#" data-filter=".commercial2">casa</a>
+                    <a href="#" data-filter=".interior2">construção</a>
+                    <a href="#" data-filter=".residential2">galpão</a>
+                    <a href="#" data-filter=".hospital2">cercas</a>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters featured-container gallery-wrapper2">
+            {{-- casa  --}}
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa1.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa1.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa2.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa2.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa3.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa3.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa4.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa4.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa5.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa5.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa6.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa6.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 commercial2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/casa7.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/casa7.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {{-- construcao --}}
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/construcao1.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/construcao1.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/construcao2.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/construcao2.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/construcao3.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/construcao3.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/construcao4.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/construcao4.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            {{-- galpao  --}}
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/galpao1.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/galpao1.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/galpao2.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/galpao2.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/galpao3.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/galpao3.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/galpao4.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/galpao4.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/galpao5.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/galpao5.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/galpao6.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/galpao6.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            {{-- cercas --}}
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/cerca1.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/cerca1.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/cerca2.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/cerca2.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/cerca3.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/cerca3.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/cerca4.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/cerca4.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 hospital2">
+                <div class="portfolio-layout5">
+                    <div class="image-box">
+                        <img src="{{ asset('assets/site/img/exemplos/cerca5.jpg') }}" alt="img">
+                    </div>
+                    <div class="content-box">
+                        <ul>
+                            <li><a href="{{ asset('assets/site/img/exemplos/cerca5.jpg') }}" class="zoom"><i
+                                        class="bi bi-search"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Area End Here -->
+
 
 <!-- Testimonial Area Start Here -->
-<div class="section-space-default Testimonial-overlay" style="background-image: url(img/client/clientbg3.jpg);">
+<div class="section-space-default Testimonial-overlay"
+    style="background-image: url({{asset('assets/site/img/client/clientbg3.jpg')}});">
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
@@ -517,7 +538,7 @@
             </div>
             <div class="col-lg-8">
                 <div class="section-title-light text-center">
-                    <h2>clients <span>reviews</span></h2>
+                    <h2>Depoimentos <span>clientes</span></h2>
                 </div>
                 <div class="plumber-carousel nav-control-middle3" data-loop="true" data-items="5" data-margin="30"
                     data-autoplay="true" data-autoplay-timeout="10000" data-smart-speed="500" data-dots="false"
@@ -528,30 +549,31 @@
                     data-r-large-nav="true" data-r-large-dots="false">
                     <div class="feedback-review-layout4">
                         <div class="description">
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consec tetur, adipisci
-                                velit, sed quia non numquam eius modi the tempora Neque porro quisquam est, qui dolorem
-                                ipsum quia. Context of Business.</p>
+                            <p>Agradeço pelo seu esforço, pela sua dedicação, pelas horas extras e pelo trabalho que
+                                sempre desempenhou com tanta energia. Em pequenos passos e com muitas mãos que se faz
+                                uma empresa. Agradeço a todos os funcionários que dedicam seu amor, sua inteligência e
+                                sua energia nesse espaço de trabalho.</p>
                         </div>
                         <div class="image-box">
                             <img src="{{ asset('assets/site/img/client/layer-196.jpg') }}" alt="img">
                         </div>
                         <div class="title-box">
-                            <h3>stiven morgan</h3>
-                            <p>CEO, Brand Architecture</p>
+                            <h3>Maria Antonia</h3>
+                            <p>Arquiteta</p>
                         </div>
                     </div>
                     <div class="feedback-review-layout4">
                         <div class="description">
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consec tetur, adipisci
-                                velit, sed quia non numquam eius modi the tempora Neque porro quisquam est, qui dolorem
-                                ipsum quia. Context of Business.</p>
+                            <p>“Ótimo atendimento.” “Agradecemos pelo bom atendimento.” “Já conhecia o trabalho da
+                                empresa, então já tinha confiança de um serviço de boa qualidade.” “Estamos muito
+                                satisfeitos com os serviços prestados.</p>
                         </div>
                         <div class="image-box">
-                            <img src="img/client/layer-196.jpg" alt="img">
+                            <img src="{{ asset('assets/site/img/client/layer-196.jpg') }}" alt="img">
                         </div>
                         <div class="title-box">
-                            <h3>stiven morgan</h3>
-                            <p>CEO, Brand Architecture</p>
+                            <h3>Roberto morgan</h3>
+                            <p>Engenheiro</p>
                         </div>
                     </div>
                 </div>
@@ -568,10 +590,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-sm-12">
-                <h2>Call Us To Get a Free Quote <span>+555 790 735</span></h2>
+                <h2>Como solicitar um orçamento? <span>(63)99208-9508</span></h2>
             </div>
             <div class="col-md-2 col-sm-12">
-                <a class="btn btn-get shadow-equal" href="#">send us an email</a>
+                <a class="btn btn-get shadow-equal" href="#">Ou solicite aqui!</a>
             </div>
         </div>
     </div>
@@ -581,7 +603,7 @@
 <div class="section-space-less30 bg-gray4">
     <div class="container">
         <div class="section-title-dark text-center">
-            <h2>latest <span>news</span></h2>
+            <h2>últimas <span>notícias</span></h2>
         </div>
         <div class="row">
             <div class="col-md-4">
@@ -638,43 +660,4 @@
     </div>
 </div>
 <!-- Blog Area End Here -->
-<!-- Brand Logo Area End Here -->
-<div class="brand-area-space">
-    <div class="container">
-        <div class="row">
-            <div class="plumber-carousel" data-loop="true" data-items="5" data-margin="70" data-autoplay="false"
-                data-autoplay-timeout="10000" data-smart-speed="500" data-dots="false" data-nav="false"
-                data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false" data-r-x-small-dots="false"
-                data-r-x-medium="3" data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="5"
-                data-r-small-nav="false" data-r-small-dots="false" data-r-medium="5" data-r-medium-nav="false"
-                data-r-medium-dots="false" data-r-large="5" data-r-large-nav="false" data-r-large-dots="false">
-                <div class="brand-logo">
-                    <a href="#">
-                        <img src="{{ asset('assets/site/img/brand/logoprimary1.png') }}" alt="img">
-                    </a>
-                </div>
-                <div class="brand-logo">
-                    <a href="#">
-                        <img src="{{ asset('assets/site/img/brand/logoprimary2.png') }}" alt="img">
-                    </a>
-                </div>
-                <div class="brand-logo">
-                    <a href="#">
-                        <img src="{{ asset('assets/site/img/brand/logoprimary1.png') }}" alt="img">
-                    </a>
-                </div>
-                <div class="brand-logo">
-                    <a href="#">
-                        <img src="{{ asset('assets/site/img/brand/logoprimary2.png') }}" alt="img">
-                    </a>
-                </div>
-                <div class="brand-logo">
-                    <a href="#">
-                        <img src="{{ asset('assets/site/img/brand/logoprimary1.png') }}" alt="img"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Brand Logo Area End Here -->
 @endsection

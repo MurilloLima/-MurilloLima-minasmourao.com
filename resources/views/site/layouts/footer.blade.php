@@ -36,12 +36,14 @@
                         <ul class="useful-links">
                             <li>
                                 <ul>
-                                    <li><a href="{{ route('site.index') }}">A Empresa</a></li>
-                                    <li><a href="{{ route('site.index') }}">A Madeira</a></li>
-                                    <li><a href="{{ route('site.index') }}">O Tratamento</a></li>
-                                    <li><a href="{{ route('site.index') }}">Aplicações</a></li>
-                                    <li><a href="{{ route('site.index') }}">Orçamentos</a></li>
-                                    <li><a href="{{ route('site.index') }}">Produtos</a></li>
+                                    <li><a href="{{ route('site.empresa') }}">A Empresa</a></li>
+                                    <li><a href="{{ route('site.madeira') }}">A Madeira</a></li>
+                                    <li><a href="{{ route('site.tratamento') }}">O Tratamento</a></li>
+                                    <li><a href="{{ route('site.index') }}">Aplicacões</a></li>
+                                    <li><a href="{{ route('site.orcamentos') }}">Orçamentos</a></li>
+                                    <li><a href="{{ route('site.produtos') }}">Produtos</a></li>
+                                    <li><a href="{{ route('site.noticias') }}">Notícias</a></li>
+                                    <li><a href="{{ route('site.contatos') }}">Contatos</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -82,7 +84,7 @@
                                     <i class="icofont icofont-social-linkedin"></i>
                                 </a>
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>
