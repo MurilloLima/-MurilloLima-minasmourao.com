@@ -5,9 +5,9 @@
 <div class="slider-area layout1 slider-overlay-dark">
     <div class="bend niceties preview-1">
         <div id="ensign-nivoslider-3" class="slides">
-            <img src="{{ asset('assets/site/img/slider/slider1-1.jpg') }}" alt="slider" title="#slider-direction-1" />
-            <img src="{{ asset('assets/site/img/slider/slider1-2.jpg') }}" alt="slider" title="#slider-direction-2" />
-            <img src="{{ asset('assets/site/img/slider/slider1-3.jpg') }}" alt="slider" title="#slider-direction-3" />
+            <img src="img/slider/slider1-1.jpg" alt="slider" title="#slider-direction-1" />
+            <img src="img/slider/slider1-2.jpg" alt="slider" title="#slider-direction-2" />
+            <img src="img/slider/slider1-3.jpg" alt="slider" title="#slider-direction-3" />
         </div>
         <div id="slider-direction-1" class="t-cn slider-direction">
             <div class="slider-content s-tb slide-1">
@@ -16,12 +16,9 @@
                         <div class="small-title">we are expert</div>
                         <div class="big-title">CARPENTERS</div>
                         <ul class="slider-btn">
-                            <li class="slide-left">
-                                <a href="{{ route('site.index') }}#" class="slider-btn1">request a free quote</a>
+                            <li class="slide-left"><a href="index.html#" class="slider-btn1">request a free quote</a>
                             </li>
-                            <li class="slide-right">
-                                <a href="{{ route('site.index') }}#" class="slider-btn2">view our services</a>
-                            </li>
+                            <li class="slide-right"><a href="index.html#" class="slider-btn2">view our services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -34,11 +31,9 @@
                         <div class="small-title">we are expert</div>
                         <div class="big-title">CARPENTERS</div>
                         <ul class="slider-btn">
-                            <li class="slide-left"><a href="{{ route('site.index') }}#" class="slider-btn1">Faça um
-                                    orçamento</a>
+                            <li class="slide-left"><a href="index.html#" class="slider-btn1">request a free quote</a>
                             </li>
-                            <li class="slide-right"><a href="{{ route('site.index') }}#"
-                                    class="slider-btn2">Produtos</a></li>
+                            <li class="slide-right"><a href="index.html#" class="slider-btn2">view our services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,11 +46,9 @@
                         <div class="small-title">we are expert</div>
                         <div class="big-title">CARPENTERS</div>
                         <ul class="slider-btn">
-                            <li class="slide-left"><a href="{{ route('site.index') }}#" class="slider-btn1">request a
-                                    free quote</a>
+                            <li class="slide-left"><a href="index.html#" class="slider-btn1">request a free quote</a>
                             </li>
-                            <li class="slide-right"><a href="{{ route('site.index') }}#" class="slider-btn2">view our
-                                    services</a></li>
+                            <li class="slide-right"><a href="index.html#" class="slider-btn2">view our services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,6 +57,7 @@
     </div>
 </div>
 <!-- Slider Area End Here -->
+
 <!-- 3 Features Area Start Here -->
 <div class="shadow-bottom section-space-less30">
     <div class="container">
@@ -117,13 +111,13 @@
 <div class="section-space-less30" style="background-image: url({{asset('assets/site/img/bg-reapet/featuredbg.jpg')}});">
     <div class="container">
         <div class="section-title-dark">
-            <h2>Exemplos de uso <span>Eucalipto</span></h2>
+            <h2>Nossos <span>Produtos</span></h2>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="img/service/BasementPlumbing.jpg" alt="image">
+                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
                     </div>
                     <div class="content-box text-center">
                         <h3><a href="#">Indoor Furniture</a></h3>
@@ -135,7 +129,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="img/service/BathroomPlumbing.jpg" alt="image">
+                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
                     </div>
                     <div class="content-box text-center">
                         <h3><a href="#">Home Wood Work</a></h3>
@@ -147,7 +141,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="img/service/KitchenPlumbing.jpg" alt="image">
+                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
                     </div>
                     <div class="content-box text-center">
                         <h3><a href="#">Outdoor Furniture</a></h3>
@@ -159,7 +153,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="img/service/gaslineman.jpg" alt="image">
+                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
                     </div>
                     <div class="content-box text-center">
                         <h3><a href="#">HARDWOOD FLOORING</a></h3>
@@ -171,7 +165,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="img/service/drainservice.jpg" alt="image">
+                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
                     </div>
                     <div class="content-box text-center">
                         <h3><a href="#">Doors & Windows</a></h3>
@@ -183,7 +177,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="img/service/waterlineman.jpg" alt="image">
+                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
                     </div>
                     <div class="content-box text-center">
                         <h3><a href="#">office decoration</a></h3>
@@ -527,7 +521,6 @@
 </div>
 <!-- Portfolio Area End Here -->
 
-
 <!-- Testimonial Area Start Here -->
 <div class="section-space-default Testimonial-overlay"
     style="background-image: url({{asset('assets/site/img/client/clientbg3.jpg')}});">
@@ -558,7 +551,7 @@
                             <img src="{{ asset('assets/site/img/client/layer-196.jpg') }}" alt="img">
                         </div>
                         <div class="title-box">
-                            <h3>Maria Antonia</h3>
+                            <h3>Luiz Augusto</h3>
                             <p>Arquiteta</p>
                         </div>
                     </div>
@@ -569,7 +562,7 @@
                                 satisfeitos com os serviços prestados.</p>
                         </div>
                         <div class="image-box">
-                            <img src="{{ asset('assets/site/img/client/layer-196.jpg') }}" alt="img">
+                            <img src="{{ asset('assets/site/img/client/layer-203.jpg') }}" alt="img">
                         </div>
                         <div class="title-box">
                             <h3>Roberto morgan</h3>

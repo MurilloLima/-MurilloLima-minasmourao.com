@@ -10,4 +10,11 @@ class Slider extends Model
         'img',
         'title'
     ];
+
+    public function getAll()
+    {
+        $data = Slider::orderby('created_at', 'desc')->get();
+        return $data;
+        # code...
+    }
 }

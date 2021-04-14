@@ -7,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Painel - @yield('title')</title>
 
-    <link rel="icon" href="{{ asset('icon96.png') }}" type="image/png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.png">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{ asset('assets/admin/plugins/fontawesome-free/css/all.min.css') }}">
