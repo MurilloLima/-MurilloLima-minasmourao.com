@@ -21,7 +21,6 @@
 </div>
 @endif
 
-
 @if ($message = Session::get('info'))
 <div class="alert alert-info alert-block">
     <button type="button" class="close" data-dismiss="alert">×</button>
@@ -33,7 +32,7 @@
 @if ($errors->any())
 <div class="alert alert-danger">
     <button type="button" class="close" data-dismiss="alert">×</button>
-    Por favor, verifique o formulário abaixo!
+    Por favor, verifique o formulário!
 </div>
 
 @endif

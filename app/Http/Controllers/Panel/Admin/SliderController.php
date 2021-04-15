@@ -16,7 +16,7 @@ class SliderController extends Controller
             'input_file' => 'img', //nome do input
             'destino' => 'slider/', //Pasta que será criada automáticamente dentro de storage/app/public/
             'resolucao' => [
-                'g' => ['h' => 450, 'w' => 1920],
+                'g' => ['h' => 450, 'w' => 1280],
             ] //Não há limites de quantos tamanhos podem ser configuradas.
         ];
     }

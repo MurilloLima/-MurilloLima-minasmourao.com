@@ -8,7 +8,7 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="{{ asset('icon96.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('assets/icon.png') }}" type="image/png">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('assets/admin/plugins/fontawesome-free/css/all.min.css') }}">

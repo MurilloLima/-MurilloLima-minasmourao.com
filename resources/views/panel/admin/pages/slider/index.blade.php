@@ -89,7 +89,7 @@ Sliders
                                                                         <div class="col-md-12">
                                                                             <div class="form-group">
                                                                                 <label for="exampleInputFile">Escolhar
-                                                                                    uma imagem 1920x450</label>
+                                                                                    uma imagem 1280x450</label>
                                                                                 <div class="input-group">
                                                                                     <div class="custom-file">
                                                                                         <input type="file" name="img"
@@ -168,7 +168,7 @@ Sliders
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="exampleInputFile">Escolhar uma imagem 1920x450</label>
+                                    <label for="exampleInputFile">Escolhar uma imagem 1280x450</label>
                                     <div class="input-group">
                                         <div class="custom-file">
                                             <input type="file" name="img" value="{{old('img')}}"

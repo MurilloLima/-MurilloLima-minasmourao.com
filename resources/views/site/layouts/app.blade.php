@@ -40,6 +40,11 @@
     <link rel="stylesheet" href="{{ asset('assets/site/css/style.css') }}">
     <!-- Modernizr Js -->
     <script src="{{ asset('assets/site/js/modernizr-2.8.3.min.js') }}"></script>
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/site/engine1/style.css') }}" />
+    <script type="text/javascript" src="{{ asset('assets/site/engine1/jquery.js') }}"></script>
+    {{-- <script src="{{ asset('assets/site/js/jquery-2.2.4.min.js') }}"></script> --}}
+    <!-- End WOWSlider.com HEAD section -->
 </head>
 
 <body>
@@ -55,7 +60,6 @@
         @include('site.layouts.footer')
     </div>
     <!-- jquery-->
-    <script src="{{ asset('assets/site/js/jquery-2.2.4.min.js') }}"></script>
     <!-- Plugins js -->
     <script src="{{ asset('assets/site/js/plugins.js') }}"></script>
     <!-- Bootstrap js -->
@@ -63,8 +67,8 @@
     <!-- WOW JS -->
     <script src="{{ asset('assets/site/js/wow.min.js') }}"></script>
     <!-- Nivo slider js -->
-    <script src="{{ asset('assets/site/vendor/slider/js/jquery.nivo.slider.js') }}"></script>
-    <script src="{{ asset('assets/site/vendor/slider/home.js') }}"></script>
+    {{-- <script src="{{ asset('assets/site/vendor/slider/js/jquery.nivo.slider.js') }}"></script> --}}
+    {{-- <script src="{{ asset('assets/site/vendor/slider/home.js') }}"></script> --}}
     <!-- Owl Cauosel JS -->
     <script src="{{ asset('assets/site/vendor/OwlCarousel/owl.carousel.min.js') }}"></script>
     <!-- Meanmenu Js -->
