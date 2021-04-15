@@ -26,6 +26,11 @@ class HomeController extends Controller
         return view('site.index', compact('slider', 'noticias', 'produtos'));
     }
 
+    public function empresa()
+    {
+        return view('site.pages.empresa');
+    }
+
     public function noticiaDetalhes($slug)
     {
         $data = Noticia::where('slug', $slug)->first();
