@@ -66,7 +66,7 @@
                                         <li><a href="{{ route('site.empresa') }}">A Empresa</a></li>
                                         <li><a href="{{ route('site.madeira') }}">A Madeira</a></li>
                                         <li><a href="{{ route('site.tratamento') }}">O Tratamento</a></li>
-                                        <li><a href="{{ route('site.index') }}">Aplicacões</a></li>
+                                        {{-- <li><a href="{{ route('site.index') }}">Aplicacões</a></li> --}}
                                     </ul>
                                 </li>
                                 <li>

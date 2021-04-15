@@ -36,6 +36,11 @@ class HomeController extends Controller
         return view('site.pages.madeira');
     }
 
+    public function tratamento()
+    {
+        return view('site.pages.tratamento');
+    }
+
     public function noticiaDetalhes($slug)
     {
         $data = Noticia::where('slug', $slug)->first();
