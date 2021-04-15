@@ -7,8 +7,9 @@ Route::get('sobre-o-tratamento/', 'Site\HomeController@tratamento')->name('site.
 Route::get('aplicacoes/', 'Site\HomeController@aplicacoes')->name('site.aplicacoes');
 Route::get('orcamentos/', 'Site\HomeController@orcamentos')->name('site.orcamentos');
 Route::get('produtos/', 'Site\HomeController@produtos')->name('site.produtos');
+Route::get('produto/{slug}', 'Site\HomeController@produtoDetalhes')->name('site.noticia.produtoDetalhes');
 Route::get('noticias/', 'Site\HomeController@noticias')->name('site.noticias');
-Route::get('contatos/{slug}', 'Site\HomeController@noticiaDetalhes')->name('site.noticia.noticiaDetalhes');
+Route::get('noticia/{slug}', 'Site\HomeController@noticiaDetalhes')->name('site.noticia.noticiaDetalhes');
 Route::get('contatos/', 'Site\HomeController@contatos')->name('site.contatos');
 
 //Panel

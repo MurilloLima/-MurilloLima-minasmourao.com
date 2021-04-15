@@ -16,9 +16,9 @@ class ProdutosController extends Controller
             'input_file' => 'img', //nome do input
             'destino' => 'produtos/', //Pasta que será criada automáticamente dentro de storage/app/public/
             'resolucao' => [
-                'p' => ['h' => 100, 'w' => 100],
-                'm' => ['h' => 340, 'w' => 270],
-                'g' => ['h' => 485, 'w' => 865],
+                'p' => ['h' => 70, 'w' => 70],
+                'm' => ['h' => 220, 'w' => 370],
+                'g' => ['h' => 420, 'w' => 770],
             ] //Não há limites de quantos tamanhos podem ser configuradas.
         ];
     }
@@ -74,7 +74,7 @@ class ProdutosController extends Controller
     public function edit($id)
     {
         $data = Produto::find($id);
-        return view('panel.admin.pages.noticias.edit', compact('data'));
+        return view('panel.admin.pages.produtos.edit', compact('data'));
     }
 
     /**

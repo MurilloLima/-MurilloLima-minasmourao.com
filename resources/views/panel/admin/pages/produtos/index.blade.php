@@ -56,7 +56,7 @@
                                             <td>{{$item->id}}</td>
                                             <td>{{str_limit($item->title, 70)}}</td>
                                             <td>{{$item->user->name}}</td>
-                                            <td class="text-center">{{$item->noticiaViews->views ?? 0}}</td>
+                                            <td class="text-center">{{$item->produtoViews->views ?? 0}}</td>
                                             <td>{{date('d/m/Y', strtotime($item->created_at))}}</td>
                                             <td>
                                                 <a href="{{ route('admin.produto.edit', ['id'=>$item->id]) }}"

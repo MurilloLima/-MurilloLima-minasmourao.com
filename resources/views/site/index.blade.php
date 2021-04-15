@@ -83,78 +83,23 @@
             <h2>Nossos <span>Produtos</span></h2>
         </div>
         <div class="row">
+            @foreach ($produtos as $item)
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="service-layout1">
                     <div class="image-box">
-                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
+                        <img src="{{ route('imagem.render', 'produtos/m/' . $item->img) }}" alt="{{$item->title}}">
                     </div>
                     <div class="content-box text-center">
-                        <h3><a href="#">Indoor Furniture</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur, adipisci
-                            velit, sed quia non.</p>
+                        <h3>
+                            <a
+                                href="{{ route('site.noticia.produtoDetalhes', ['slug'=>$item->slug]) }}">{{$item->title}}</a>
+                        </h3>
+                        <p>{{$item->desc}}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <div class="service-layout1">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
-                    </div>
-                    <div class="content-box text-center">
-                        <h3><a href="#">Home Wood Work</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur, adipisci
-                            velit, sed quia non.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <div class="service-layout1">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
-                    </div>
-                    <div class="content-box text-center">
-                        <h3><a href="#">Outdoor Furniture</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur, adipisci
-                            velit, sed quia non.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <div class="service-layout1">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
-                    </div>
-                    <div class="content-box text-center">
-                        <h3><a href="#">HARDWOOD FLOORING</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur, adipisci
-                            velit, sed quia non.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <div class="service-layout1">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
-                    </div>
-                    <div class="content-box text-center">
-                        <h3><a href="#">Doors & Windows</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur, adipisci
-                            velit, sed quia non.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <div class="service-layout1">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/service/BasementPlumbing.jpg') }}" alt="image">
-                    </div>
-                    <div class="content-box text-center">
-                        <h3><a href="#">office decoration</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur, adipisci
-                            velit, sed quia non.</p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+
         </div>
     </div>
 </div>
@@ -579,10 +524,13 @@
                             <li class="primary-text">{{$item->created_at->formatLocalized('%d de %B de %Y')}}</li>
                         </ul>
                         <h3 class="small-text">
-                            <a href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">{{$item->title}}</a>
+                            <a
+                                href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">{{$item->title}}</a>
                         </h3>
                         <p>{{$item->desc}}</p>
-                        <a class="more-button2" href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">Continuar lendo</a>
+                        <a class="more-button2"
+                            href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">Continuar
+                            lendo</a>
                     </div>
                 </div>
             </div>

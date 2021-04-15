@@ -1,5 +1,5 @@
 @extends('site.layouts.app')
-@section('title', 'Home')
+@section('title', $data->title)
 @section('content')
 
 <div class="body-bggray4">
@@ -45,7 +45,7 @@
                                 {!!$data->content!!}
                             </div>
 
-                            
+
                             {{-- <div class="share-area shadow-equal">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
