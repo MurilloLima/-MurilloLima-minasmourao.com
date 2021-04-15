@@ -41,6 +41,28 @@ class HomeController extends Controller
         return view('site.pages.tratamento');
     }
 
+    public function orcamentos()
+    {
+        return view('site.pages.orcamentos');
+    }
+
+    public function produtos(Produto $produto)
+    {
+        $produtos  = $produto->getAll();
+        return view('site.pages.produtos', compact('produtos'));
+    }
+
+    public function noticias(Noticia $noticia)
+    {
+        $noticias = $noticia->getAll();
+        return view('site.pages.noticias', compact('noticias'));
+    }
+
+    public function contatos()
+    {
+        return view('site.pages.contatos');
+    }
+
     public function noticiaDetalhes($slug)
     {
         $data = Noticia::where('slug', $slug)->first();

@@ -7,8 +7,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="banner-content-layout4 text-center">
-                    <p>Conheça-nos</p>
-                    <h2>Alto padrão de qualidade</h2>
+                    <p>Conheça</p>
+                    <h2>Minas Mourão</h2>
+                    <p>Eucalipto tratado</p>
                 </div>
             </div>
         </div>
