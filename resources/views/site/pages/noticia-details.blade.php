@@ -97,19 +97,19 @@
                             <h3>Últimos posts</h3>
                         </div>
                         <div class="latest-research">
-                            @foreach ($noticiasRight as $item)
+                            @foreach ($noticiasRight as $noticia)
                             <div class="media">
                                 <div class="media-left media-top">
-                                    <a href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">
-                                        <img src="{{ route('imagem.render', 'noticias/p/' . $item->img) }}"
-                                            class="img-responsive" alt="{{$item->title}}"></a>
+                                    <a href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$noticia->slug]) }}">
+                                        <img src="{{ route('imagem.render', 'noticias/p/' . $noticia->img) }}"
+                                            class="img-responsive" alt="{{$noticia->title}}"></a>
                                 </div>
                                 <div class="media-body">
                                     <h4 class="media-heading">
                                         <a
-                                            href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$data->slug]) }}">{{$data->title}}</a>
+                                            href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$noticia->slug]) }}">{{$noticia->title}}</a>
                                     </h4>
-                                    <p>{{$item->created_at->diffForHumans()}}</p>
+                                    <p>{{$noticia->created_at->diffForHumans()}}</p>
                                 </div>
                             </div>
                             @endforeach

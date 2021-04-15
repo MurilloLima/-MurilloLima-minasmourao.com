@@ -21,6 +21,11 @@ class Noticia extends Model
         return Noticia::orderby('created_at', 'desc')->paginate();
     }
 
+    public function getFirst($slug)
+    {
+        return Noticia::where('slug', $slug)->first();
+    }
+
     public function getLimit($limit)
     {
         return Noticia::orderby('created_at', 'desc')->limit($limit)->get();

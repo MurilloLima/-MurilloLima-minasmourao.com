@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Noticia;
 use Carbon\Carbon;
 use Illuminate\Support\ServiceProvider;
 

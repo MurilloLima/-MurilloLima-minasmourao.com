@@ -216,7 +216,7 @@
             </div>
 
             {{-- construcao --}}
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+            {{-- <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
                 <div class="portfolio-layout5">
                     <div class="image-box">
                         <img src="{{ asset('assets/site/img/exemplos/construcao1.jpg') }}" alt="img">
@@ -229,8 +229,8 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+            </div> --}}
+            {{-- <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
                 <div class="portfolio-layout5">
                     <div class="image-box">
                         <img src="{{ asset('assets/site/img/exemplos/construcao2.jpg') }}" alt="img">
@@ -243,8 +243,8 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+            </div> --}}
+            {{-- <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
                 <div class="portfolio-layout5">
                     <div class="image-box">
                         <img src="{{ asset('assets/site/img/exemplos/construcao3.jpg') }}" alt="img">
@@ -257,8 +257,8 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
+            </div> --}}
+            {{-- <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 interior2">
                 <div class="portfolio-layout5">
                     <div class="image-box">
                         <img src="{{ asset('assets/site/img/exemplos/construcao4.jpg') }}" alt="img">
@@ -271,10 +271,10 @@
 
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             {{-- galpao  --}}
-            <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
+            {{-- <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
                 <div class="portfolio-layout5">
                     <div class="image-box">
                         <img src="{{ asset('assets/site/img/exemplos/galpao1.jpg') }}" alt="img">
@@ -287,7 +287,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="col-md-3 col-sm-6 col-xs-6 col-mb-12 residential2">
                 <div class="portfolio-layout5">
                     <div class="image-box">

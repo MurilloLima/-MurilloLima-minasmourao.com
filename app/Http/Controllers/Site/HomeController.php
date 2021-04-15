@@ -63,10 +63,10 @@ class HomeController extends Controller
         return view('site.pages.contatos');
     }
 
-    public function noticiaDetalhes($slug)
+    public function noticiaDetalhes($slug, Noticia $noticia)
     {
-        $data = Noticia::where('slug', $slug)->first();
-        $noticiasRight = Noticia::limit(3)->get();
+        $data = $noticia->getFirst($slug);
+        $noticiasRight = $noticia->getLimit(3);
 
         $i = 1;
         $view = ViewNoticia::where('noticia_id', $data->id)->first();

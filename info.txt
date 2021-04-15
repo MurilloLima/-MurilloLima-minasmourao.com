@@ -4,6 +4,7 @@ user: u186288921.minasmourao
 pass: rxwOSRaiQ>u4
 
 MYSQL
+URL: https://auth-db288.hostinger.com.br/index.php
 host: localhost
 bd:   u186288921_minasmourao
 user: u186288921_minasmourao 

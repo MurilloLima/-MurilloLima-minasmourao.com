@@ -3,7 +3,7 @@
         <div class="col-md-5">
             <div class="form-group">
                 <label for="exampleInputFile">Escolhar
-                    uma imagem 865x485</label>
+                    uma imagem 770x420</label>
                 <div class="input-group">
                     <div class="custom-file">
                         <input type="file" name="img" class="custom-file-input" id="exampleInputFile">

@@ -3,3 +3,4 @@ RewriteCond %{HTTP_HOST} ^minasmourao.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.minasmourao.com$
 RewriteCond %{REQUEST_URI} !public/
 RewriteRule (.*) /public/$1 [L]
+

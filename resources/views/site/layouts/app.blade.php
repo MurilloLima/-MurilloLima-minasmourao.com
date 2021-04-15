@@ -45,11 +45,22 @@
     <script type="text/javascript" src="{{ asset('assets/site/engine1/jquery.js') }}"></script>
     {{-- <script src="{{ asset('assets/site/js/jquery-2.2.4.min.js') }}"></script> --}}
     <!-- End WOWSlider.com HEAD section -->
+    <style>
+        div#loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('{{url('assets/site/img/78px.gif')}}') 50% 50% no-repeat white;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Preloader Start Here -->
-    <div id="preloader"></div>
+    <div id="loader"></div>
     <!-- Preloader End Here -->
     <div id="wrapper" class="wrapper">
         @include('site.layouts.nav')
@@ -99,6 +110,15 @@
     <!-- Custom Js -->
     <script src="{{ asset('assets/site/js/main.js') }}"></script>
 
+
+    {{-- loading --}}
+    <script>
+        // Este evendo é acionado após o carregamento da página
+    jQuery(window).load(function() {
+        //Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
+        jQuery("#loader").fadeOut("slow");
+    });
+    </script>
 </body>
 
 </html>
