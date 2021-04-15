@@ -39,9 +39,8 @@
                     </div>
                     <div class="content-box">
                         <h2><a href="{{ route('site.empresa') }}">INSTITUCIONAL</a></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae iure fuga minima
-                            nemo. Velit libero saepe cumque, veritatis amet ducimus. Consequuntur dolores itaque sint
-                            quibusdam harum nisi tempora provident.</p>
+                        <p>A Minas Mourão é uma empresa oriunda do estado de Minas Gerais onde há décadas atende uma
+                            demanda crescente por Eucalipto Tratado.</p>
                     </div>
                 </div>
             </div>
@@ -569,56 +568,29 @@
             <h2>últimas <span>notícias</span></h2>
         </div>
         <div class="row">
+            @forelse ($noticias as $item)
             <div class="col-md-4">
                 <div class="blog-wrp-layout4">
                     <div class="image-box">
-                        <img src="{{ asset('assets/site/img/blog/styleb4.jpg') }}" alt="engeniers">
+                        <img src="{{ route('imagem.render', 'noticias/m/' . $item->img) }}" alt="{{$item->title}}">
                     </div>
                     <div class="content-box text-center">
                         <ul>
-                            <li class="primary-text">17 April 2017</li>
+                            <li class="primary-text">{{$item->created_at->formatLocalized('%d de %B de %Y')}}</li>
                         </ul>
                         <h3 class="small-text">
-                            <a href="#">MODERN TRENDS FOR BEDROOM</a>
+                            <a href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">{{$item->title}}</a>
                         </h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur adipisci
-                            velit, sed quia non consec tetur </p>
-                        <a class="more-button2" href="#">Read more</a>
+                        <p>{{$item->desc}}</p>
+                        <a class="more-button2" href="{{ route('site.noticia.noticiaDetalhes', ['slug'=>$item->slug]) }}">Continuar lendo</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="blog-wrp-layout4">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/blog/styleb5.jpg') }}" alt="engeniers">
-                    </div>
-                    <div class="content-box text-center">
-                        <ul>
-                            <li class="primary-text">17 April 2017</li>
-                        </ul>
-                        <h3 class="small-text"><a href="#">MODERN TRENDS FOR BEDROOM</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur adipisci
-                            velit, sed quia non consec tetur </p>
-                        <a class="more-button2" href="#">Read more</a>
-                    </div>
-                </div>
+            @empty
+            <div class="col-md-12 text-center">
+                <span><strong>Nenhuma notícia no momento...</strong></span>
             </div>
-            <div class="col-md-4">
-                <div class="blog-wrp-layout4">
-                    <div class="image-box">
-                        <img src="{{ asset('assets/site/img/blog/styleb6.jpg') }}" alt="engeniers">
-                    </div>
-                    <div class="content-box text-center">
-                        <ul>
-                            <li class="primary-text">17 April 2017</li>
-                        </ul>
-                        <h3 class="small-text"><a href="#">MODERN TRENDS FOR BEDROOM</a></h3>
-                        <p>Neque porro quisquam est, qui dolor em ipsum quia dolor sit amet, consec tetur adipisci
-                            velit, sed quia non consec tetur </p>
-                        <a class="more-button2" href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
+            @endforelse
         </div>
     </div>
 </div>

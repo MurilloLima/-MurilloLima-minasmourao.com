@@ -8,6 +8,7 @@ Route::get('aplicacoes/', 'Site\HomeController@aplicacoes')->name('site.aplicaco
 Route::get('orcamentos/', 'Site\HomeController@orcamentos')->name('site.orcamentos');
 Route::get('produtos/', 'Site\HomeController@produtos')->name('site.produtos');
 Route::get('noticias/', 'Site\HomeController@noticias')->name('site.noticias');
+Route::get('contatos/{slug}', 'Site\HomeController@noticiaDetalhes')->name('site.noticia.noticiaDetalhes');
 Route::get('contatos/', 'Site\HomeController@contatos')->name('site.contatos');
 
 //Panel
@@ -18,7 +19,12 @@ Route::group(['prefix' => 'panel', 'middleware' => ['auth']], function () {
     Route::get('orcamentos/', 'Panel\Admin\OrcamentoController@index')->name('admin.orcamentos.index');
 
     //produtos
-    Route::get('produtos/', 'Panel\Admin\ProdutoController@index')->name('admin.produtos.index');
+    Route::get('produtos/', 'Panel\Admin\ProdutosController@index')->name('admin.produtos.index');
+    Route::get('produto/create/', 'Panel\Admin\ProdutosController@create')->name('admin.produto.create');
+    Route::post('produto/', 'Panel\Admin\ProdutosController@store')->name('admin.produto.store');
+    Route::get('produto/edit/{id}', 'Panel\Admin\ProdutosController@edit')->name('admin.produto.edit');
+    Route::post('produto/update/{id}', 'Panel\Admin\ProdutosController@update')->name('admin.produto.update');
+    Route::get('produto/delete/{id}', 'Panel\Admin\ProdutosController@delete')->name('admin.produto.delete');
 
     //Slider
     Route::get('slider/', 'Panel\Admin\SliderController@index')->name('admin.slider.index');

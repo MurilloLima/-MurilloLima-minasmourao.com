@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Noticia extends Model
@@ -25,9 +26,9 @@ class Noticia extends Model
         return Noticia::orderby('created_at', 'desc')->limit($limit)->get();
     }
 
-    public function countViews()
+    public function noticiaViews()
     {
-        return $this->hasOne(CountView::class, 'noticia_id');
+        return $this->hasOne(ViewNoticia::class, 'noticia_id');
     }
 
     public function user()

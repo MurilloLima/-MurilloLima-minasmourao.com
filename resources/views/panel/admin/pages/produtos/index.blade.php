@@ -1,5 +1,5 @@
-@extends('panel.admin.layouts.app', ['activePage' => 'admin.noticias.index'])
-@section('title', 'Notícias')
+@extends('panel.admin.layouts.app', ['activePage' => 'admin.produtos.index'])
+@section('title', 'Produtos')
 @section('content')
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -12,14 +12,13 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Notícias</li>
+                        <li class="breadcrumb-item active">Produtos</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div>
     </div>
     {{-- end content-header --}}
-
     <div class="content">
         <div class="container-fluid">
             <div class="row">
@@ -27,7 +26,7 @@
                     @include('panel.includes.alerts')
                     <div class="row">
                         <div class="col-md-12 text-left" style="margin-bottom: 10px;">
-                            <a href="{{ route('admin.noticia.create') }}" class="btn btn-default">
+                            <a href="{{ route('admin.produto.create') }}" class="btn btn-default">
                                 Cadastrar
                             </a>
                         </div>
@@ -35,8 +34,7 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="d-flex justify-content-between">
-                                <h3 class="card-title">Notícias</h3>
-
+                                <h3 class="card-title">Produtos</h3>
                             </div>
                         </div>
                         <div class="card-body">
@@ -61,16 +59,14 @@
                                             <td class="text-center">{{$item->noticiaViews->views ?? 0}}</td>
                                             <td>{{date('d/m/Y', strtotime($item->created_at))}}</td>
                                             <td>
-                                                <a href="{{ route('admin.noticia.edit', ['id'=>$item->id]) }}"
+                                                <a href="{{ route('admin.produto.edit', ['id'=>$item->id]) }}"
                                                     class="btn btn-xs btn-default" title="Editar">
                                                     <i class="fas fa-edit"></i>
                                                 </a>
-                                                <a href="{{ route('admin.noticia.delete', ['id'=>$item->id]) }}"
+                                                <a href="{{ route('admin.produto.delete', ['id'=>$item->id]) }}"
                                                     class="btn btn-xs btn-default" title="Deletar">
                                                     <i class="fas fa-trash-alt"></i>
                                                 </a>
-
-
                                             </td>
                                         </tr>
                                         @empty

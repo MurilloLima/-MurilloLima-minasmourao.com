@@ -4,21 +4,21 @@ namespace App\Http\Controllers\Panel\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\Noticia;
-use App\Models\ViewNoticia;
+use App\Models\Produto;
+use App\Models\ViewProduto;
 use Rd7\ImagemUpload\ImagemUpload;
 
-class NoticiasController extends Controller
+class ProdutosController extends Controller
 {
     public function __construct()
     {
         $this->img = [
             'input_file' => 'img', //nome do input
-            'destino' => 'noticias/', //Pasta que será criada automáticamente dentro de storage/app/public/
+            'destino' => 'produtos/', //Pasta que será criada automáticamente dentro de storage/app/public/
             'resolucao' => [
-                'p' => ['h' => 70, 'w' => 70],
-                'm' => ['h' => 220, 'w' => 370],
-                'g' => ['h' => 420, 'w' => 770],
+                'p' => ['h' => 100, 'w' => 100],
+                'm' => ['h' => 340, 'w' => 270],
+                'g' => ['h' => 485, 'w' => 865],
             ] //Não há limites de quantos tamanhos podem ser configuradas.
         ];
     }
@@ -29,8 +29,8 @@ class NoticiasController extends Controller
      */
     public function index()
     {
-        $data = Noticia::orderby('created_at', 'desc')->paginate(50);
-        return view('panel.admin.pages.noticias.index', compact('data'));
+        $data = Produto::orderby('created_at', 'desc')->paginate(50);
+        return view('panel.admin.pages.produtos.index', compact('data'));
     }
 
     /**
@@ -40,7 +40,7 @@ class NoticiasController extends Controller
      */
     public function create()
     {
-        return view('panel.admin.pages.noticias.create');
+        return view('panel.admin.pages.produtos.create');
     }
 
     /**
@@ -52,18 +52,19 @@ class NoticiasController extends Controller
     public function store(Request $request)
     {
         $image = ImagemUpload::salva($this->img);
-        Noticia::create([
+        Produto::create([
             'img' => $image,
             'title' => $request->get('title'),
+            'slug' => str_slug($request->get('title')),
             'desc' => $request->get('desc'),
             'content' => $request->get('content'),
-            'slug' => str_slug($request->get('title')),
             'user_id' => auth()->user()->id
 
         ]);
         return redirect()->back()->with('success', 'Cadastrado com sucesso!');
     }
 
+    
     /**
      * Show the form for editing the specified resource.
      *
@@ -72,7 +73,7 @@ class NoticiasController extends Controller
      */
     public function edit($id)
     {
-        $data = Noticia::find($id);
+        $data = Produto::find($id);
         return view('panel.admin.pages.noticias.edit', compact('data'));
     }
 
@@ -85,24 +86,23 @@ class NoticiasController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $data = Noticia::find($id);
+        $data = Produto::find($id);
         $image = ImagemUpload::salva($this->img);
         if ($image == true) {
             $data->update([
                 'img' => $image,
                 'title' => $request->get('title'),
+                'slug' => str_slug($request->get('title')),
                 'desc' => $request->get('desc'),
                 'content' => $request->get('content'),
-                'slug' => str_slug($request->get('title')),
                 'user_id' => auth()->user()->id
-
             ]);
         } else {
             $data->update([
                 'title' => $request->get('title'),
+                'slug' => str_slug($request->get('title')),
                 'desc' => $request->get('desc'),
                 'content' => $request->get('content'),
-                'slug' => str_slug($request->get('title')),
                 'user_id' => auth()->user()->id
             ]);
         }
@@ -117,7 +117,7 @@ class NoticiasController extends Controller
      */
     public function delete($id)
     {
-        Noticia::destroy($id);
+        Produto::destroy($id);
         return redirect()->back()->with('success', 'Deletado com sucesso!');
     }
 }

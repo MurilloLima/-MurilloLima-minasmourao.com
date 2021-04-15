@@ -6,9 +6,8 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-logo">
                         <img src="{{ asset('assets/site/logo.png') }}" alt="logo">
-                        <p>Neque porro quisquam est, qui is dolor emr ipsum quia dolor sit amet consec tetur is adipisci
-                            velit, sed the quia non num quam. Neque porro quisquam est, qui dolor emr ipsum quia dolor
-                            sit amet, consec tetur.</p>
+                        <p>A Minas Mourão é uma empresa oriunda do estado de Minas Gerais onde há décadas atende uma
+                            demanda crescente por Eucalipto Tratado.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
