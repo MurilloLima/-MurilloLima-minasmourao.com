@@ -41,7 +41,6 @@ class OrcamentoController extends Controller
      */
     public function store(OrcamentoRequest $request, Orcamento $orcamento)
     {
-
         //verifica se o cache existe
         if (Cache::has('uid')) {
             $orcamento->create([
@@ -53,7 +52,13 @@ class OrcamentoController extends Controller
         } else {
             $key = Keygen::numeric(8)->generate();
             $expiresAt = Carbon::now()->addMinutes(120);
-            Cache::add('uid', $key, $expiresAt);
+            Cache::put('uid', $key, $expiresAt);
+            $orcamento->create([
+                'uid' => Cache::get('uid'),
+                'bitola' => $request->get('bitola'),
+                'size' => $request->get('size'),
+                'qtd' => $request->get('qtd')
+            ]);
         }
         return redirect()->back()->with('success', 'Item adicionado a lista de desejo!');
     }
