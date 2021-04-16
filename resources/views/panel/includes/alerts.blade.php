@@ -1,4 +1,4 @@
-@if ($message = Session::get('success'))
+{{-- @if ($message = Session::get('success'))
 <div class="alert alert-success alert-block">
     <button type="button" class="close" data-dismiss="alert">×</button>
     <strong>{{ $message }}</strong>
@@ -27,12 +27,27 @@
     <strong>{{ $message }}</strong>
 </div>
 
-@endif
+@endif --}}
 
 @if ($errors->any())
-<div class="alert alert-danger">
+@foreach ($errors->all() as $error)
+<div class="alert alert-warning alert-block text-center">
     <button type="button" class="close" data-dismiss="alert">×</button>
-    Por favor, verifique o formulário!
+    <span>{{$error}}</span>
 </div>
+@endforeach
+@endif
 
+@if (session('success'))
+<div class="alert alert-success alert-block text-center">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <span>{{session('success')}}</span>
+</div>
+@endif
+
+@if (session('error'))
+<div class="alert alert-danger alert-block text-center">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <span>{{session('error')}}</span>
+</div>
 @endif

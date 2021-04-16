@@ -6,6 +6,11 @@ Route::get('sobre-a-madeira/', 'Site\HomeController@madeira')->name('site.madeir
 Route::get('sobre-o-tratamento/', 'Site\HomeController@tratamento')->name('site.tratamento');
 Route::get('aplicacoes/', 'Site\HomeController@aplicacoes')->name('site.aplicacoes');
 Route::get('orcamentos/', 'Site\HomeController@orcamentos')->name('site.orcamentos');
+
+Route::post('orcamento/store/', 'Site\OrcamentoController@store')->name('site.orcamento.store');
+Route::get('orcamento/delete/{id}', 'Site\OrcamentoController@destroy')->name('site.orcamento.delete');
+Route::post('orcamento/finalizar/', 'Site\OrcamentoController@finalizar')->name('site.orcamento.finalizar');
+
 Route::get('produtos/', 'Site\HomeController@produtos')->name('site.produtos');
 Route::get('produto/{slug}', 'Site\HomeController@produtoDetalhes')->name('site.noticia.produtoDetalhes');
 Route::get('noticias/', 'Site\HomeController@noticias')->name('site.noticias');

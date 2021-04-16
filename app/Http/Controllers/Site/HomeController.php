@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
 use App\Models\Noticia;
+use App\Models\Orcamento;
 use App\Models\Produto;
 use App\Models\Slider;
 use App\Models\ViewNoticia;
 use App\Models\ViewProduto;
+use Illuminate\Support\Facades\Cache;
 
 class HomeController extends Controller
 {
@@ -43,7 +45,8 @@ class HomeController extends Controller
 
     public function orcamentos()
     {
-        return view('site.pages.orcamentos');
+        $data = Orcamento::where('uid', Cache::get('uid'))->orderby('created_at', 'desc')->get();
+        return view('site.pages.orcamentos', compact('data'));
     }
 
     public function produtos(Produto $produto)

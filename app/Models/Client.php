@@ -4,12 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Orcamento extends Model
+class Client extends Model
 {
     protected $fillable = [
         'uid',
-        'bitola',
-        'size',
-        'qtd'
+        'name',
+        'email',
+        'phone',
+        'address',
+        'obs',
     ];
 }

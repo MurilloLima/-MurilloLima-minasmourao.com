@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateOrcamentosTable extends Migration
+class CreateClientsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,14 @@ class CreateOrcamentosTable extends Migration
      */
     public function up()
     {
-        Schema::create('orcamentos', function (Blueprint $table) {
+        Schema::create('clients', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('uid');
-            $table->string('bitola');
-            $table->string('size');
-            $table->string('qtd');
+            $table->integer('uid');
+            $table->string('name');
+            $table->string('email');
+            $table->string('phone');
+            $table->string('address')->nullable();
+            $table->text('obs')->nullable();
             $table->timestamps();
         });
     }
@@ -30,6 +32,6 @@ class CreateOrcamentosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orcamentos');
+        Schema::dropIfExists('clients');
     }
 }
