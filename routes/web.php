@@ -23,6 +23,8 @@ Route::group(['prefix' => 'panel', 'middleware' => ['auth']], function () {
 
     //orçamentos
     Route::get('orcamentos/', 'Panel\Admin\OrcamentoController@index')->name('admin.orcamentos.index');
+    Route::get('orcamentos/delete/{id}', 'Panel\Admin\OrcamentoController@destroy')->name('admin.orcamento.delete');
+    Route::get('orcamentos/print/{uid}', 'Panel\Admin\OrcamentoController@print')->name('admin.orcamento.print');
 
     //produtos
     Route::get('produtos/', 'Panel\Admin\ProdutosController@index')->name('admin.produtos.index');

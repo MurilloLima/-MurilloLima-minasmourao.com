@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Panel\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Client;
+use App\Models\Orcamento;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class OrcamentoController extends Controller
 {
@@ -14,7 +17,8 @@ class OrcamentoController extends Controller
      */
     public function index()
     {
-        //
+        $data = Client::orderby('created_at', 'desc')->paginate(20);
+        return view('panel.admin.pages.orcamentos.index', compact('data'));
     }
 
     /**
@@ -67,9 +71,11 @@ class OrcamentoController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function print($uid)
     {
-        //
+        $data = Client::where('uid', $uid)->first();
+        $pdf = PDF::loadView('panel.admin.pages.orcamentos.print', compact('data'));
+        return $pdf->download('orcamento.pdf');
     }
 
     /**
@@ -80,6 +86,7 @@ class OrcamentoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Client::destroy($id);
+        return redirect()->back()->with('success', 'Deletado com sucesso!');
     }
 }

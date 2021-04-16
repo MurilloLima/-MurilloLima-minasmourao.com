@@ -14,7 +14,8 @@
         "laravel/tinker": "^1.0",
         "rd7/imagemupload": "^1.1",
         "laravelcollective/html": "^5.8.0",
-        "gladcodes/keygen": "^1.1"
+        "gladcodes/keygen": "^1.1",
+        "barryvdh/laravel-dompdf": "^0.8.7"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

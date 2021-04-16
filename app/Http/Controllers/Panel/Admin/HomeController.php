@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Panel\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Client;
 use App\Models\Noticia;
 use App\Models\Orcamento;
 use App\Models\Produto;
@@ -25,7 +26,7 @@ class HomeController extends Controller
     {
         $slider = Slider::all();
         $produtos = Produto::all();
-        $orcamentos = Orcamento::all();
+        $orcamentos = Client::all();
         $noticias = Noticia::all();
         return view('panel.admin.index', compact(
             'slider',
