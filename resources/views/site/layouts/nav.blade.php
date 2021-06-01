@@ -31,8 +31,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ route('site.index') }}" title="google"><i
-                                        class="icofont icofont-social-google-plus"></i>
+                                <a href="https://www.instagram.com/minasmourao_/" title="google"><i
+                                        class="icofont icofont-social-instagram"></i>
                                 </a>
                             </li>
                             <li>

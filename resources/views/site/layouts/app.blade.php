@@ -43,6 +43,15 @@
     <!-- Start WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/site/engine1/style.css') }}" />
     <script type="text/javascript" src="{{ asset('assets/site/engine1/jquery.js') }}"></script>
+
+    <meta property="og:image" content="{{ asset('assets/site/logo20.png') }}" />
+    <meta property="og:url" content="https://minasmourao.com/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Minas Mourão" />
+    <meta property="og:description"
+        content="A Minas Mourão é uma empresa oriunda do estado de Minas Gerais onde há décadas atende uma demanda crescente por Eucalipto Tratado. Com o crescimento do mercado de eucalipto tratado na região norte do Tocantins e sul do Maranhão resolvemos nos instalar na cidade de Aguiarnópolis/TO devido à localização geográfica com a grande passagem do progresso na divisa dos dois estados." />
+    <meta property="fb:app_id" content="875635116500546" />
+
     {{-- <script src="{{ asset('assets/site/js/jquery-2.2.4.min.js') }}"></script> --}}
     <!-- End WOWSlider.com HEAD section -->
     <style>
@@ -69,7 +78,7 @@
         @yield('content')
         <!-- Top Bar Space End-->
         @include('site.layouts.footer')
-        
+
         <a href="https://api.whatsapp.com/send?phone=5563992089508&text=Entre em contato conosco pelo whatsapp%20"
             target="_blank" style="position:fixed;bottom:20px;right:30px;">
             <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512"
